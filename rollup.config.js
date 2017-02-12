@@ -9,7 +9,7 @@ module.exports = {
   dest       : 'mithril-bootstrap.js',
   format     : 'umd',
   moduleId   : 'mithril-bootstrap',
-  moduleName : 'mithril-bootstrap',
+  moduleName : 'mbs',
   external   : ['mithril'],
   globals    : { mithril : 'm' },
   plugins    : [
