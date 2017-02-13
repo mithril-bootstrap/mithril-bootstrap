@@ -1,0 +1,18 @@
+{
+  "name": "mithril-bootstrap",
+  "version": "0.0.1",
+  "description": "Boostrap wrappers for Mithril.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orbitbot/mithril-bootstrap.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orbitbot/mithril-bootstrap/issues"
+  },
+  "homepage": "https://github.com/orbitbot/mithril-bootstrap#readme"
+}
