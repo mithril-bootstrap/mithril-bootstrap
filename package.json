@@ -4,7 +4,8 @@
   "description": "Boostrap wrappers for Mithril.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "develop": "onchange '*/*.js' -- npm t",
+    "test": "node tests.js"
   },
   "repository": {
     "type": "git",
@@ -14,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/orbitbot/mithril-bootstrap/issues"
   },
-  "homepage": "https://github.com/orbitbot/mithril-bootstrap#readme"
+  "homepage": "https://github.com/orbitbot/mithril-bootstrap#readme",
+  "devDependencies": {
+    "glob": "7.1.1",
+    "mithril": "1.0.1",
+    "onchange": "3.2.1",
+    "ospec": "1.2.3",
+    "reify": "0.4.7"
+  }
 }
