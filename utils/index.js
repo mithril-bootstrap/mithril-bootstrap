@@ -6,7 +6,7 @@ export const merge = (target, concatKeys, ...args) => {
   var concatKeys = [].concat(concatKeys)
   var result = Object(target)
 
-  for (var index = 1; index < args.length; ++index) {
+  for (var index = 0; index < args.length; ++index) {
     let next = args[index]
 
     if (next != null) {
