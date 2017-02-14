@@ -12,8 +12,8 @@ export const merge = (target, concatKeys, ...args) => {
     if (next != null) {
       for (var key in next) {
         if (Object.prototype.hasOwnProperty.call(next, key)) {
-          if (concatKeys.indexOf(key) != -1) {
-            result[key] = result[key] ? result[key].concat(next[key]) : next[key]
+          if (concatKeys.indexOf(key) != -1 && typeof result[key] === 'string') {
+            result[key] = result[key] ? `${ result[key] } ${ next[key] }` : next[key]
           } else {
             result[key] = next[key]
           }
